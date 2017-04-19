@@ -13,6 +13,8 @@
 - Refer at site: https://www.acmesystems.it/video_streaming
 4. Set default INTERFACE
 - /etc/default/isc-dhcp-server INTERFACE="wlan0"
+5. Setup git log show
+ `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 
 #
 --HuyLe (anhhuy@live.com)
