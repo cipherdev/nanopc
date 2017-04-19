@@ -123,6 +123,7 @@ alias cls='clear'
 alias cs='cscope -b -q -k -R'
 alias vi='vim'
 binar=/home/huyle
+export TERM=xterm
 export PATH=$binar/bin:$PATH
 #tmux source-file ~/.tmux.conf
 #tmux
